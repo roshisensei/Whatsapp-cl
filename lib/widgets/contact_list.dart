@@ -31,6 +31,7 @@ class ContactList extends StatelessWidget {
                       info[index]['name'].toString(),
                       style: const TextStyle(
                         fontSize: 18,
+                        overflow: TextOverflow.ellipsis
                       ),
                     ),
                     subtitle: Padding(
@@ -39,6 +40,7 @@ class ContactList extends StatelessWidget {
                         info[index]['message'].toString(),
                         style: const TextStyle(
                           fontSize: 15,
+                          overflow: TextOverflow.ellipsis
                         ),
                       ),
                     ),
